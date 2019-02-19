@@ -7,7 +7,7 @@ function out = dirType(typeToKeep, searchString)
 %%%%%       found by dir()
 %%%%%   optional:
 %%%%%       searchString: string; look for items within the directory that
-%%%%%       match this criteria
+%%%%%       match this criteria (default: all files/directories)
 %%%%% Output: structure of found files or directories matching criteria
 
     if nargin == 2
